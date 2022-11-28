@@ -2,8 +2,8 @@
 
 ## Created By: Guilherme K. Fagundes
 ## Date = 2022-09-15 14:56
-## Name = Install php e apache2
-## Descsription = Este script realiza a instalação do php e do apache2
+## Name = Install php, apache2 and php extensions
+## Descsription = This script installs php, apache2 and php extensions
 
 
 ##################################################
