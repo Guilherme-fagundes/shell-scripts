@@ -5,6 +5,11 @@
 ## Name = Install php, apache2 and php extensions
 ## Descsription = This script installs php, apache2 and php extensions
 
+##################################################
+
+############### VARIABLES #######################
+
+phpVersion='set here php version' # ex: phpVersion=8.3
 
 ##################################################
 ########### Update system ########################
@@ -27,4 +32,4 @@ php -v
 ##################################################
 # EX:php8.1-extensionname = php8.1-mbstring
 ###################################################
-sudo apt install -y php<your-version>-mbstring php<your-version>-pdo-mysql php<your-version>-intl php<your-version>-xdebug php<your-version>-dom
+sudo apt install -y php$phpVersion-mbstring php$phpVersion-pdo-mysql php$phpVersion-intl php$phpVersion-xdebug php$phpVersion-dom php$phpVersion-curl
